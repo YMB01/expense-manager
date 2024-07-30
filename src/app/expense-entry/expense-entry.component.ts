@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./expense-entry.component.css']
 })
 export class ExpenseEntryComponent implements OnInit {
+  title: String;
 
   constructor() { }
 
   ngOnInit() {
+    this.title = "Expense Entry"
   }
 
 }
